@@ -17,6 +17,7 @@ Back-end usando Spring Boot REST API
 
 ## Front-End
 Feito em Angular
+repositório do Front-End: krosscaal/Spring-Angular-FrontEnd
 
 ## DataBase
 Banco de dados usado e PostgreSQL.
