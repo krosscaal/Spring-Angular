@@ -13,7 +13,6 @@ public class SpringAngularApplication {
     public static void main(String[] args) {
         SpringApplication.run(SpringAngularApplication.class, args);
     }
-
     @Bean
     CorsConfigurationSource corsConfigurationSource(){
         CorsConfiguration corsConfiguration = new CorsConfiguration();

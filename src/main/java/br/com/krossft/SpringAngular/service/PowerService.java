@@ -21,11 +21,13 @@ public class PowerService implements InterfacePowerService{
 
     @Override
     public Power create(Power power) {
+        power.setPower(power.getPower().toUpperCase());
         return this.powerRepository.save(power);
     }
 
     @Override
     public Power update(Power power) {
+        power.setPower(power.getPower().toUpperCase());
         return this.powerRepository.save(power);
     }
 
